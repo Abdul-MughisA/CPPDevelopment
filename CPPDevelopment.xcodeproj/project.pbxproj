@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		5A9000372B26036500781B6D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9000362B26036500781B6D /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		5A9000312B26036500781B6D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,8 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A8615CB2B30954800B225EA /* LearnCPP.com */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LearnCPP.com; sourceTree = "<group>"; };
 		5A9000332B26036500781B6D /* CPPDevelopment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPDevelopment; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A9000362B26036500781B6D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +37,7 @@
 		5A90002A2B26036500781B6D = {
 			isa = PBXGroup;
 			children = (
-				5A9000352B26036500781B6D /* CPPDevelopment */,
+				5A8615CB2B30954800B225EA /* LearnCPP.com */,
 				5A9000342B26036500781B6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +48,6 @@
 				5A9000332B26036500781B6D /* CPPDevelopment */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5A9000352B26036500781B6D /* CPPDevelopment */ = {
-			isa = PBXGroup;
-			children = (
-				5A9000362B26036500781B6D /* main.cpp */,
-			);
-			path = CPPDevelopment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +107,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A9000372B26036500781B6D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
