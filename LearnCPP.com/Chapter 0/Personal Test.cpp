@@ -19,6 +19,7 @@ long getCPPStandard()
     // If we're using an older version of Visual Studio, bail out
     return -1;
 #else
+
     // __cplusplus is the intended way to query the language standard code (as defined by the language standards)
     return __cplusplus;
 #endif

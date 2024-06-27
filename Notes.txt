@@ -1,0 +1,28 @@
+Copy Initialisation
+int var = 1
+This is simple to read.
+
+Direct Initialisation
+int var(1)
+
+Direct List Initialisation
+int var{1}
+This is preferred.
+
+Copy List Initialisation
+int var = {1}
+
+Value Initialisation
+int var {}
+Usually initialises to 0.
+
+Initialise values to 0 if you are then going to use them.
+
+Put [[maybe_unused]] before init to prevent errors for unused variables.
+
+' for chars and " for strings.
+
+When values are "initialised" but not assigned, they are given the value currently at that memory location.
+
+std::cout << "This is a really, really, really, really, really, really, really, "
+    "really long line\n"; // one extra indentation for continuation line
