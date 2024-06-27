@@ -36,6 +36,15 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-ggdb",
+                "-pedantic-errors",
+                "-Wall",
+                "-Weffc++",
+                "-Wextra",
+                "-Wconversion",
+                "-Wsign-conversion",
+                "-Werror",
+                "-std=c++17",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
