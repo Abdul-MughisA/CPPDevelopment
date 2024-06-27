@@ -1,5 +1,7 @@
 #include <iostream>
 
-int main (){
-    // I just made my own C++ document on my own!
+int main()
+{
+    std::cout << "What the hell do you think of yourself?";
+    return 0;
 }
