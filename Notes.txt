@@ -41,3 +41,17 @@ It can be declared before main by copy-pasting the first line of the function.
 When adding multiple files, the compiler needs to be aware of it.
 The best solution is to create a new folder for every set of files, and make sure the compiler compiles all the files in a folder.
 Forward declaration works here when function is defined in another file.
+
+Anything global goes in the global namespace (which is located outside the main() function).
+:: is the scope resolution operator.
+
+using namespace std; can be specified outside main and then you will no longer need to write std:: every time.
+This is discouraged.
+
+Preprocessor directives start with # in C++.
+#include adds libraries.
+#define THING "thing" can be used as a variable within the program.
+#define THING (without substitution text)
+
+Header files are used to put declarations in a file which can be used when needed.
+
