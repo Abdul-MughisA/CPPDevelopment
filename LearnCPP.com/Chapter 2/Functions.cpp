@@ -1,8 +1,15 @@
 #include <iostream>
 
+int getValueFromUser(){
+    std::cout << "Enter an integer: ";
+    int input{};
+    std::cin >> input;
+
+    return input;
+}
+
 int main()
 {
-    int x;
-    std::cin >> x;
-    return x;
+    int num{getValueFromUser()};
+    std::cout << num << " doubled is: " << num * 2 << '\n';
 }
