@@ -23,6 +23,7 @@ Put [[maybe_unused]] before init to prevent errors for unused variables.
 ' for chars and " for strings.
 
 When values are "initialised" but not assigned, they are given the value currently at that memory location.
+Uninitialised variables cause undefined behaviours.
 
 std::cout << "This is a really, really, really, really, really, really, really, "
     "really long line\n"; // one extra indentation for continuation line
@@ -31,3 +32,15 @@ void() used for procedures.
 int() used for functions returning integers.
 
 Adding parameters to int will pass by value using copy initialisation.
+
+Variables inside int or void are local.
+
+Forward declaration lets you use a function if it has been defined after main.
+It can be declared before main by copy-pasting the first line of the function.
+
+When adding multiple files, the compiler needs to be aware of it.
+The best solution is to create a new folder for every set of files, and make sure the compiler compiles all the files in a folder.
+Forward declaration works here when function is defined in another file.
+
+- [ ] Move C++ project files over to Mac
+

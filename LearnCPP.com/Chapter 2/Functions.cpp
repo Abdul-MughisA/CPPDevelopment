@@ -8,14 +8,16 @@ int getValueFromUser(){
     return input;
 }
 
-int returnValue(int value)
-{
-    return value;
-}
+int returnValue(int value);
 
 int main()
 {
     std::cout << returnValue(100) << " is the value you entered." << std::endl;
     int num{getValueFromUser()};
     std::cout << num << " doubled is: " << num * 2 << '\n';
+}
+
+int returnValue(int value)
+{
+    return value;
 }
