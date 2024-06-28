@@ -26,3 +26,6 @@ When values are "initialised" but not assigned, they are given the value current
 
 std::cout << "This is a really, really, really, really, really, really, really, "
     "really long line\n"; // one extra indentation for continuation line
+
+void() used for procedures.
+int() used for functions returning integers.
