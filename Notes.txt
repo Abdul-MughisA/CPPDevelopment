@@ -29,3 +29,5 @@ std::cout << "This is a really, really, really, really, really, really, really, 
 
 void() used for procedures.
 int() used for functions returning integers.
+
+Adding parameters to int will pass by value using copy initialisation.
