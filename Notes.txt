@@ -41,6 +41,3 @@ It can be declared before main by copy-pasting the first line of the function.
 When adding multiple files, the compiler needs to be aware of it.
 The best solution is to create a new folder for every set of files, and make sure the compiler compiles all the files in a folder.
 Forward declaration works here when function is defined in another file.
-
-- [ ] Move C++ project files over to Mac
-
