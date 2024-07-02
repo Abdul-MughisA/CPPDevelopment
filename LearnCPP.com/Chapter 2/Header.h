@@ -4,6 +4,6 @@
 #ifndef UNIQUE_NAME // < HEADER
 #define UNIQUE_NAME // < GUARDS
 
-int Function();
+int Function();     // FORWARD DECLARATION
 
 #endif              // <

@@ -1,3 +1,4 @@
+// This program just prints "Hello, world!"
 #include <iostream>
 
 int main()

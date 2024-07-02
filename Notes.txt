@@ -61,3 +61,15 @@ Can also use preprocessor.
 #define ENABLE_DEBUG // comment this code out when you don't want to debug
 #ifdef ENABLE_DEBUG
 #endif
+
+C++ always uses integer division using "/" sign.
+
+The fast types (std::int_fast#_t and std::uint_fast#_t) provide the fastest signed/unsigned integer type with a width of at least # bits (where # = 8, 16, 32, or 64).
+For example, std::int_fast32_t will give you the fastest signed integer type that’s at least 32 bits.
+Fastest = integral type processed most quickly by the CPU.
+
+The least types (std::int_least#_t and std::uint_least#_t) provide the smallest signed/unsigned integer type with a width of at least # bits (where # = 8, 16, 32, or 64).
+For example, std::uint_least32_t will give you the smallest unsigned integer type that’s at least 32 bits.
+
+Best to avoid std::int8_t and std::uint8_t because treated as chars instead of integers.
+Use 16 version instead.

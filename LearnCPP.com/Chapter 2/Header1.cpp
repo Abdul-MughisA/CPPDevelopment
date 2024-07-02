@@ -3,5 +3,5 @@
 
 int main()
 {
-    std::cout << Function();
+    std::cout << Function(); // this is the function wished to be called
 }
