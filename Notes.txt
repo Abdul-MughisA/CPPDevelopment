@@ -55,3 +55,9 @@ Preprocessor directives start with # in C++.
 
 Header files are used to put declarations in a file which can be used when needed.
 
+Use std::cerr instead of std::cout for printing when checking for errors.
+std::cerr is unbuffered.
+Can also use preprocessor.
+#define ENABLE_DEBUG // comment this code out when you don't want to debug
+#ifdef ENABLE_DEBUG
+#endif
