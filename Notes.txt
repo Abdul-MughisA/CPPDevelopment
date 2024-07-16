@@ -73,3 +73,19 @@ For example, std::uint_least32_t will give you the smallest unsigned integer typ
 
 Best to avoid std::int8_t and std::uint8_t because treated as chars instead of integers.
 Use 16 version instead.
+
+When defining float types, always be explicit. For example, define as:
+float var { 6.0f }
+Make sure there is a float when defining.
+f explicitly shows float-ness of number.
+
+std::cout has a standard precision of 6 numbers.
+This can be altered.
+
+Output manipulators change the precision of the output.
+Note: floats are less precise than doubles.
+
+\t is the escape character for a tab.
+\\ enters a backslash.
+\' enters a single quote.
+\" enters a double quote.

@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ayaanabdul-mughis/Documents/GitHub/CPPDevelopment/LearnCPP.com/Chapter 4/Floating Point Numbers'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003CB4, symSize: 0x84 }
+  - { offsetInCU: 0x3A37, offset: 0x3A37, size: 0x8, addend: 0x0, symName: __ZNSt3__112setprecisionB8ue170006Ei, symObjAddr: 0x84, symBinAddr: 0x100003D38, symSize: 0x2C }
+  - { offsetInCU: 0x46A4, offset: 0x46A4, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0xDC, symBinAddr: 0x100003D90, symSize: 0x58 }
+  - { offsetInCU: 0x46E4, offset: 0x46E4, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB8ue170006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x20C, symBinAddr: 0x100003EC0, symSize: 0x2C }
+  - { offsetInCU: 0x7192, offset: 0x7192, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003CB4, symSize: 0x84 }
+  - { offsetInCU: 0x725D, offset: 0x725D, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ue170006EPFRS3_S4_E, symObjAddr: 0xB0, symBinAddr: 0x100003D64, symSize: 0x2C }
+  - { offsetInCU: 0x728F, offset: 0x728F, size: 0x8, addend: 0x0, symName: __ZNSt3__18__iom_t5C1B8ue170006Ei, symObjAddr: 0x134, symBinAddr: 0x100003DE8, symSize: 0x34 }
+  - { offsetInCU: 0x72C5, offset: 0x72C5, size: 0x8, addend: 0x0, symName: __ZNSt3__18__iom_t5C2B8ue170006Ei, symObjAddr: 0x168, symBinAddr: 0x100003E1C, symSize: 0x20 }
+  - { offsetInCU: 0x72FB, offset: 0x72FB, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ue170006Ec, symObjAddr: 0x188, symBinAddr: 0x100003E3C, symSize: 0x84 }
+  - { offsetInCU: 0x7367, offset: 0x7367, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB8ue170006Ec, symObjAddr: 0x238, symBinAddr: 0x100003EEC, symSize: 0x38 }
+...
